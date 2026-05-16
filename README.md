@@ -106,34 +106,57 @@ Created dashboards in:
 - Power Query
 - Data Visualization
 
+## 📊 DAX Measures Used
+Some important DAX calculations:
+
+### Total Restaurants
+Total Restaurants = COUNT('Restaurants'[RestaurantID])
+
+### Average Rating
+Average Rating = AVERAGE('Restaurants'[Rating])
+
+### Online Delivery Count
+Online Delivery Count = 
+CALCULATE(
+    COUNT('Restaurants'[RestaurantID]),
+    'Restaurants'[Has_Online_Delivery] = "Yes"
+)
+
+### Year-over-Year Growth
+YoY Growth = 
+CALCULATE(
+    [Total Restaurants],
+    SAMEPERIODLASTYEAR('Calendar'[Date])
+)
+
 ---
 
 ## 📈 Dashboards Included
-### Excel Dashboard
+## Excel Dashboard
 Interactive KPI dashboard with slicers and charts
 
-<img width="1265" height="721" alt="Excel Dashboard" src="https://github.com/user-attachments/assets/2e77da1e-f03f-428b-bae2-36a364b4ee72" />
+### <img width="1265" height="721" alt="Excel Dashboard" src="https://github.com/user-attachments/assets/2e77da1e-f03f-428b-bae2-36a364b4ee72" />
 
 
 
 ## 📈 Tableau Dashboard Features
-Dynamic country and city filters
-Time-series growth analysis
-Rating heatmap visualization
-Cross-country price comparison
-Interactive drill-down functionality
+* Dynamic country and city filters
+* Time-series growth analysis
+* Rating heatmap visualization
+* Cross-country price comparison
+* Interactive drill-down functionality
 
-<img width="1266" height="707" alt="Tableau Dashboard" src="https://github.com/user-attachments/assets/739886ae-f8eb-42a3-b902-ea5caaf9ff3a" />
+### <img width="1266" height="707" alt="Tableau Dashboard" src="https://github.com/user-attachments/assets/739886ae-f8eb-42a3-b902-ea5caaf9ff3a" />
 
-### 📊 Power BI Dashboard Features
-KPI Cards (Total Restaurants, Avg Rating)
-Year-wise Restaurant Growth
-Country-wise Distribution Map
-Rating Distribution Analysis
-Online Delivery Comparison
-Interactive Filters & Slicers
+## 📊 Power BI Dashboard Features
+* KPI Cards (Total Restaurants, Avg Rating)
+* Year-wise Restaurant Growth
+* Country-wise Distribution Map
+* Rating Distribution Analysis
+* Online Delivery Comparison
+* Interactive Filters & Slicers
 
-<img width="1142" height="683" alt="PowerBi Dashboard" src="https://github.com/user-attachments/assets/a11664e2-ff0b-4b2b-b8aa-4fc658853dad" />
+### <img width="1142" height="683" alt="PowerBi Dashboard" src="https://github.com/user-attachments/assets/a11664e2-ff0b-4b2b-b8aa-4fc658853dad" />
 
 
 ### 🗃 SQL Analysis Performed
