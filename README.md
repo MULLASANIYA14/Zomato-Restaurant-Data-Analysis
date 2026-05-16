@@ -212,8 +212,12 @@ ORDER BY cal.Year, cal.Quarter;
 - Automate data refresh using scheduled pipelines
 
 
-## 🚀 Project Outcome
-This project helped derive actionable business insights that can help restaurant businesses improve pricing strategies, customer engagement, and operational decisions.
+## 🎯  Project Outcome
+- Understand market expansion trends
+- Compare country-level performance
+- Analyze pricing patterns
+- Evaluate online delivery penetration
+- Identify high-performing regions
 
 
 ## Project Structure
