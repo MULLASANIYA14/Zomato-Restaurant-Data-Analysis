@@ -135,7 +135,7 @@ CALCULATE(
     [Total Restaurants],
     SAMEPERIODLASTYEAR('Calendar'[Date])
 )
-```bash
+```
 
 ---
 
