@@ -142,7 +142,7 @@ Key queries performed:
 * Online delivery trend analysis
 * Aggregation using GROUP BY and JOIN
 
-## Sample SQL Query
+''' Sample SQL Query
 SELECT 
     cal.Year,
     cal.Quarter,
