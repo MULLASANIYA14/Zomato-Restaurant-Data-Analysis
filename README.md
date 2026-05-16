@@ -166,6 +166,11 @@ Interactive KPI dashboard with slicers and charts
 
 ### <img width="1142" height="683" alt="PowerBi Dashboard" src="https://github.com/user-attachments/assets/a11664e2-ff0b-4b2b-b8aa-4fc658853dad" />
 
+## Data Modeling
+```bash
+<img width="1458" height="769" alt="Data Modeling" src="https://github.com/user-attachments/assets/13787e01-12f2-4360-83f1-7b555ad158c6" />
+
+```
 
 ## 🗃 SQL Analysis Performed
 Key queries performed:
