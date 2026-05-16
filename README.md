@@ -1,13 +1,140 @@
+# 🍽️ Zomato Restaurant Analysis Project
 
-# 📊 Zomato Restaurant Data Analysis
+## 📌 Project Overview
+This end-to-end data analytics project analyzes Zomato restaurant data to uncover customer preferences, restaurant performance, pricing trends, and delivery patterns across multiple countries and cities.
 
-🔎 Project Overview
-This project analyzes 9500+ restaurants from the Zomato dataset to uncover business insights related to restaurant growth, pricing trends, rating distribution, and online delivery adoption.
+The project was built using:
+- SQL → Data cleaning & business analysis
+- Excel → Interactive dashboard creation
+- Tableau → Data visualization
+- Power BI → Business intelligence reporting
 
-The objective was to transform raw data into meaningful business insights using SQL, Excel, Power BI, and Tableau.
+---
 
-Project Context
-This project was completed as part of the Data Analytics internship program where the objective was to perform end-to-end data analysis and create business insights using SQL, Excel, Power BI, and Tableau.
+## 🎯 Business Problem
+Zomato wants to understand:
+
+- Which countries have the highest number of restaurants
+- Which cuisines are most popular
+- Which cities have highest/lowest ratings
+- Pricing distribution of restaurants
+- Online delivery adoption
+- Table booking trends
+
+This helps businesses improve customer satisfaction and make better strategic decisions.
+
+---
+
+## 📂 Dataset Information
+Dataset includes:
+
+- Restaurant ID
+- Restaurant Name
+- Country
+- City
+- Cuisine
+- Ratings
+- Votes
+- Average Cost for Two
+- Online Delivery
+- Table Booking
+- Opening Date
+- Currency
+
+---
+
+## ⚙️ Project Workflow
+### 1. Data Cleaning
+- Removed duplicates
+- Handled missing values
+- Standardized columns
+- Created lookup tables
+
+### 2. SQL Analysis
+- Created calendar table
+- Converted currency into USD
+- Performed KPI analysis
+- Generated business insights
+
+### 3. Dashboard Development
+Created dashboards in:
+- Microsoft Excel
+- Tableau
+- Power BI
+
+---
+
+## 📊 Key KPIs
+- Total Restaurants
+- Total Countries
+- Total Cities
+- Total Cuisines
+- Average Ratings
+- Total Votes
+- Online Delivery %
+- Table Booking %
+
+---
+
+## 🔍 Key Insights
+✅ India has the highest number of restaurants  
+
+✅ Identified top-performing cuisines  
+
+✅ Found top 5 cities with highest ratings  
+
+✅ Identified bottom 5 cities with lowest ratings  
+
+✅ Created price segmentation:
+- Low
+- Medium
+- High
+- Luxury
+
+✅ Analyzed online delivery trends  
+
+✅ Analyzed table booking trends  
+
+---
+
+## 🛠️ Tools & Technologies
+- MySQL
+- Microsoft Excel
+- Power BI
+- Tableau
+- Pivot Tables
+- Power Query
+- Data Visualization
+
+---
+
+## 📈 Dashboards Included
+### Excel Dashboard
+Interactive KPI dashboard with slicers and charts
+
+### Tableau Dashboard
+Advanced visual storytelling dashboard
+
+### Power BI Dashboard
+Dynamic dashboard with drill-down insights
+
+---
+
+## 📸 Dashboard Screenshots
+<img width="1265" height="721" alt="Excel Dashboard" src="https://github.com/user-attachments/assets/2e77da1e-f03f-428b-bae2-36a364b4ee72" />
+<img width="1266" height="707" alt="Tableau Dashboard" src="https://github.com/user-attachments/assets/739886ae-f8eb-42a3-b902-ea5caaf9ff3a" />
+<img width="1142" height="683" alt="PowerBi Dashboard" src="https://github.com/user-attachments/assets/a11664e2-ff0b-4b2b-b8aa-4fc658853dad" />
 
 
 
+
+---
+
+## 🚀 Project Outcome
+This project helped derive actionable business insights that can help restaurant businesses improve pricing strategies, customer engagement, and operational decisions.
+
+---
+
+## 👤 Author
+Saniya Mulla
+LinkedIn Profile Link -https://www.linkedin.com/feed/
