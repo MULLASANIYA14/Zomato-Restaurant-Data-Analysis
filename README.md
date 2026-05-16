@@ -115,21 +115,27 @@ Total Restaurants = COUNT('Restaurants'[RestaurantID])
 ```
 
 ### Average Rating
+```bash
 Average Rating = AVERAGE('Restaurants'[Rating])
+```
 
 ### Online Delivery Count
+```bash
 Online Delivery Count = 
 CALCULATE(
     COUNT('Restaurants'[RestaurantID]),
     'Restaurants'[Has_Online_Delivery] = "Yes"
 )
+```
 
 ### Year-over-Year Growth
+```bash
 YoY Growth = 
 CALCULATE(
     [Total Restaurants],
     SAMEPERIODLASTYEAR('Calendar'[Date])
 )
+```bash
 
 ---
 
