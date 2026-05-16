@@ -10,18 +10,6 @@ The project was built using:
 - Power BI → Business intelligence reporting
 
 ---
-# 🍽️ Zomato Restaurant Analysis Project
-
-## 📌 Project Overview
-This end-to-end data analytics project analyzes Zomato restaurant data to uncover customer preferences, restaurant performance, pricing trends, and delivery patterns across multiple countries and cities.
-
-The project was built using:
-- SQL → Data cleaning & business analysis
-- Excel → Interactive dashboard creation
-- Tableau → Data visualization
-- Power BI → Business intelligence reporting
-
----
 
 ## 🎯 Business Problem
 Zomato wants to understand:
