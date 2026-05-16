@@ -159,7 +159,7 @@ Interactive KPI dashboard with slicers and charts
 ### <img width="1142" height="683" alt="PowerBi Dashboard" src="https://github.com/user-attachments/assets/a11664e2-ff0b-4b2b-b8aa-4fc658853dad" />
 
 
-### 🗃 SQL Analysis Performed
+## 🗃 SQL Analysis Performed
 Key queries performed:
 
 * Restaurant count by Year, Quarter, Month
@@ -187,6 +187,10 @@ ORDER BY cal.Year, cal.Quarter;
 
 ## 🚀 Project Outcome
 This project helped derive actionable business insights that can help restaurant businesses improve pricing strategies, customer engagement, and operational decisions.
+
+
+## Project Structure
+zomato-restaurant-data-analysis │ ├── ZOMATO_PROJECT_INSIGHTS.sql ├── ZOMATO_ANALYSIS_EXCEL.xlsx ├── ZOMATO_ANALYSIS_POWERBI.pbix ├── TABLEAU_ZOMATO_DASHBOARD.twbx ├── POWERBI_ZOMATO_DASHBOARD.png ├── TABLEAU_ZOMATO_DASHBOARD.png ├── ZOMATO_ANALYSIS_EXCEL_DASHBOARD.png └── README.md
 
 ---
 
