@@ -1,4 +1,4 @@
-# 🍽️ Zomato Restaurant Analysis Project
+<img width="1458" height="769" alt="Data Modeling" src="https://github.com/user-attachments/assets/44e99175-00be-4f59-ab51-2768790208be" /># 🍽️ Zomato Restaurant Analysis Project
 
 ## 📌 Project Overview
 This end-to-end data analytics project analyzes Zomato restaurant data to uncover customer preferences, restaurant performance, pricing trends, and delivery patterns across multiple countries and cities.
@@ -195,8 +195,22 @@ GROUP BY cal.Year, cal.Quarter, cal.MonthFullName
 ORDER BY cal.Year, cal.Quarter;
 
 ```
+ 
+ ---
+## ⚠ Challenges Faced
+- Handling inconsistent currency formats.
+- Managing missing rating values.
+- Creating accurate time-based analysis due to date inconsistencies.
+- Ensuring correct relationships in data modeling.
+- Optimizing DAX measures for performance.
+- 
+## 🚀 Future Improvements
+- Implement rolling average analysis.
+- Add customer sentiment analysis.
+- Build predictive model for rating trends.
+- Deploy dashboard to Power BI Service.
+- Automate data refresh using scheduled pipelines
 
----
 
 ## 🚀 Project Outcome
 This project helped derive actionable business insights that can help restaurant businesses improve pricing strategies, customer engagement, and operational decisions.
