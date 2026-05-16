@@ -1,4 +1,16 @@
-<img width="1458" height="769" alt="Data Modeling" src="https://github.com/user-attachments/assets/44e99175-00be-4f59-ab51-2768790208be" /># 🍽️ Zomato Restaurant Analysis Project
+# 🍽️ Zomato Restaurant Analysis Project
+
+## 📌 Project Overview
+This end-to-end data analytics project analyzes Zomato restaurant data to uncover customer preferences, restaurant performance, pricing trends, and delivery patterns across multiple countries and cities.
+
+The project was built using:
+- SQL → Data cleaning & business analysis
+- Excel → Interactive dashboard creation
+- Tableau → Data visualization
+- Power BI → Business intelligence reporting
+
+---
+# 🍽️ Zomato Restaurant Analysis Project
 
 ## 📌 Project Overview
 This end-to-end data analytics project analyzes Zomato restaurant data to uncover customer preferences, restaurant performance, pricing trends, and delivery patterns across multiple countries and cities.
@@ -231,7 +243,34 @@ Zomato-Restaurant-Analysis/
 └── README.md
 ```
 
+
+
+## 📌 Project Overview
+This end-to-end data analytics project analyzes Zomato restaurant data to uncover customer preferences, restaurant performance, pricing trends, and delivery patterns across multiple countries and cities.
+
+The project was built using:
+- SQL → Data cleaning & business analysis
+- Excel → Interactive dashboard creation
+- Tableau → Data visualization
+- Power BI → Business intelligence reporting
+
 ---
+
+## 🎯 Business Problem
+Zomato wants to understand:
+
+- Which countries have the highest number of restaurants
+- Which cuisines are most popular
+- Which cities have highest/lowest ratings
+- Pricing distribution of restaurants
+- Online delivery adoption
+- Table booking trends
+
+This helps businesses improve customer satisfaction and make better strategic decisions.
+
+---
+---
+
 
 ## 👤 Author
 - Saniya Mulla
