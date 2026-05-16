@@ -216,5 +216,5 @@ Zomato-Restaurant-Analysis/
 ---
 
 ## 👤 Author
-Saniya Mulla
-LinkedIn Profile Link -https://www.linkedin.com/feed/
+- Saniya Mulla
+- LinkedIn Profile Link -https://www.linkedin.com/feed/
