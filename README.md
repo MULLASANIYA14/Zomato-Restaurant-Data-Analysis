@@ -111,22 +111,48 @@ Created dashboards in:
 ## 📈 Dashboards Included
 ### Excel Dashboard
 Interactive KPI dashboard with slicers and charts
-
-### Tableau Dashboard
-Advanced visual storytelling dashboard
-
-### Power BI Dashboard
-Dynamic dashboard with drill-down insights
-
----
-
-## 📸 Dashboard Screenshots
 <img width="1265" height="721" alt="Excel Dashboard" src="https://github.com/user-attachments/assets/2e77da1e-f03f-428b-bae2-36a364b4ee72" />
+
+
+
+## 📈 Tableau Dashboard Features
+Dynamic country and city filters
+Time-series growth analysis
+Rating heatmap visualization
+Cross-country price comparison
+Interactive drill-down functionality
 <img width="1266" height="707" alt="Tableau Dashboard" src="https://github.com/user-attachments/assets/739886ae-f8eb-42a3-b902-ea5caaf9ff3a" />
+
+### 📊 Power BI Dashboard Features
+KPI Cards (Total Restaurants, Avg Rating)
+Year-wise Restaurant Growth
+Country-wise Distribution Map
+Rating Distribution Analysis
+Online Delivery Comparison
+Interactive Filters & Slicers
 <img width="1142" height="683" alt="PowerBi Dashboard" src="https://github.com/user-attachments/assets/a11664e2-ff0b-4b2b-b8aa-4fc658853dad" />
 
 
+### 🗃 SQL Analysis Performed
+Key queries performed:
 
+* Restaurant count by Year, Quarter, Month
+* Country-wise restaurant distribution
+* Average rating by country
+* Online delivery trend analysis
+* Aggregation using GROUP BY and JOIN
+
+## Sample SQL Query
+SELECT 
+    cal.Year,
+    cal.Quarter,
+    cal.MonthFullName AS Month_Name,
+    COUNT(*) AS Number_of_Restaurants
+FROM main m
+JOIN calendar cal
+    ON cal.Datekey_Opening = m.Datekey
+GROUP BY cal.Year, cal.Quarter, cal.MonthFullName
+ORDER BY cal.Year, cal.Quarter;
 
 ---
 
