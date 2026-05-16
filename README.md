@@ -110,7 +110,9 @@ Created dashboards in:
 Some important DAX calculations:
 
 ### Total Restaurants
+```bash
 Total Restaurants = COUNT('Restaurants'[RestaurantID])
+```
 
 ### Average Rating
 Average Rating = AVERAGE('Restaurants'[Rating])
